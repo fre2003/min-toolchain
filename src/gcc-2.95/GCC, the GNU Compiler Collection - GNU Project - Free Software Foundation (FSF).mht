@@ -1,0 +1,936 @@
+From: =?gb2312?B?0tHTySBJbnRlcm5ldCBFeHBsb3JlciAxMSCxo7Tm?=
+Subject: GCC, the GNU Compiler Collection - GNU Project - Free Software Foundation (FSF)
+Date: Tue, 24 Dec 2013 20:07:43 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CF00E3.CE5C10B0"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_0000_01CF00E3.CE5C10B0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://gcc.gnu.org/
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!--?xml version=3D"1.0" encoding=3D"utf-8"?--><!DOCTYPE html PUBLIC =
+"-//W3C//DTD XHTML 1.0 Transitional//EN" =
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><HTML=20
+lang=3D"en" lang=3D"en" xml:lang=3D"en"=20
+xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD><META =
+content=3D"IE=3D11.0000"=20
+http-equiv=3D"X-UA-Compatible">
+     =20
+<META http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3Dutf-8">     <LINK=20
+href=3D"mailto:gcc@gcc.gnu.org" rev=3D"made">     <LINK =
+href=3D"http://gcc.gnu.org/favicon.ico"=20
+rel=3D"shortcut icon">     <LINK href=3D"http://gcc.gnu.org/gcc.css" =
+rel=3D"stylesheet"=20
+type=3D"text/css">   =20
+<META name=3D"google-site-verification" =
+content=3D"FUv_3eEIkimd6LAoWned4TPMqmKKQmw3aA2_PBJ5SAY">=20
+<TITLE>GCC, the GNU Compiler Collection - GNU Project - Free Software =
+Foundation=20
+(FSF)</TITLE>=20
+<STYLE type=3D"text/css">=0A=
+  h2 { font-size: 1.2em; margin-bottom:1%; }=0A=
+</STYLE>
+   =20
+<META name=3D"GENERATOR" content=3D"MSHTML 11.00.9600.16428"></HEAD> =20
+<BODY>
+<TABLE border=3D"0" cellspacing=3D"0" cellpadding=3D"2">
+  <TBODY>
+  <TR>
+    <TD width=3D"99%" valign=3D"top"><!-- main frame --> =20
+      <H1 style=3D"margin-top: 0px;">GCC, the GNU Compiler =
+Collection</H1><IMG=20
+      align=3D"right" alt=3D"" =
+src=3D"http://gcc.gnu.org/img/gccegg-65.png">=20
+      <P>The GNU Compiler Collection includes front ends for <A =
+href=3D"http://gcc.gnu.org/c99status.html">C</A>,=20
+      <A href=3D"http://gcc.gnu.org/projects/cxx0x.html">C++</A>, =
+Objective-C, <A=20
+      href=3D"http://gcc.gnu.org/fortran/">Fortran</A>, <A =
+href=3D"http://gcc.gnu.org/java/">Java</A>,=20
+      Ada, and Go, as well as libraries for these languages (<A =
+href=3D"http://gcc.gnu.org/libstdc++/">libstdc++</A>,=20
+      libgcj,...). GCC was originally written as the compiler for the <A =
+href=3D"http://www.gnu.org/gnu/thegnuproject.html">GNU=20
+      operating system</A>. The GNU system was developed to be 100% free =
+
+      software, free in the sense that it <A =
+href=3D"http://www.gnu.org/philosophy/free-sw.html">respects
+       the user's freedom</A>.</P>
+      <P>We strive to provide regular, high quality <A =
+href=3D"http://gcc.gnu.org/releases.html">releases</A>,=20
+      which we want to work well on a variety of native and cross =
+targets=20
+      (including GNU/Linux), and encourage everyone  to <A =
+href=3D"http://gcc.gnu.org/contribute.html">contribute</A>=20
+      changes or help <A =
+href=3D"http://gcc.gnu.org/testing/">testing</A> GCC. Our=20
+      sources are readily and freely available via <A =
+href=3D"http://gcc.gnu.org/svn.html">SVN</A>=20
+      and weekly <A =
+href=3D"http://gcc.gnu.org/snapshots.html">snapshots</A>.</P>
+      <P>Major decisions about GCC are made by the <A =
+href=3D"http://gcc.gnu.org/steering.html">
+      steering committee</A>, guided by the <A =
+href=3D"http://gcc.gnu.org/gccmission.html">
+      mission statement</A>.</P>
+      <HR>
+<!-- =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D -->=20
+      <TABLE>
+        <TBODY>
+        <TR>
+          <TD valign=3D"top" style=3D"width: 50%; padding-right: 8px;">
+            <H2 id=3D"news" style=3D"margin-top: 0pt;">News</H2>
+            <DL class=3D"news">
+              <DT><SPAN>Toolchain Build Robot</SPAN>     <SPAN=20
+              class=3D"date">[2013-11-24]</SPAN></DT>
+              <DD>The <A =
+href=3D"http://toolchain.lug-owl.de/buildbot/">Build=20
+              Robot</A> is      mass-compiling GCC (stage1 only) =
+regularly,=20
+              catching build errors early.</DD>
+              <DT><SPAN>Andes NDS32 support</SPAN>     <SPAN=20
+              class=3D"date">[2013-10-31]</SPAN></DT>
+              <DD>A port for nds32, the 32-bit architecture of AndesCore =
+
+              families,      has been contributed by Andes Technology=20
+              Corporation.</DD>
+              <DT><SPAN><A href=3D"http://gcc.gnu.org/gcc-4.8/">GCC =
+4.8.2</A>=20
+              released</SPAN>     <SPAN =
+class=3D"date">[2013-10-16]</SPAN></DT>
+              <DD></DD>
+              <DT><SPAN>OpenMP v4.0</SPAN>     <SPAN=20
+              class=3D"date">[2013-10-11]</SPAN></DT>
+              <DD>An implementation of the <A =
+href=3D"http://www.openmp.org/mp-documents/OpenMP4.0.0.pdf">OpenMP=20
+              v4.0</A>    parallel programming interface for so far just =
+C, C++=20
+              has been added.    Code was contributed by Jakub Jelinek, =
+Aldy=20
+              Hernandez, Richard Henderson    of Red Hat, Inc. and =
+Tobias=20
+              Burnus.</DD>
+              <DT><SPAN><A=20
+              href=3D"http://gcc.gnu.org/projects/cxx0x.html">C++11</A>=20
+              &lt;regex&gt; support</SPAN>     <SPAN=20
+              class=3D"date">[2013-10-03]</SPAN></DT>
+              <DD>Regular expression support in <A =
+href=3D"http://gcc.gnu.org/libstdc++/">libstdc++-v3</A>=20
+              is now available.</DD>
+              <DT><SPAN>Synopsys Designware ARC support</SPAN>     <SPAN =
+class=3D"date">[2013-10-01]</SPAN></DT>
+              <DD>A port for Synopsys Designware ARC has been =
+contributed by=20
+              Embecosm and Synopsys Inc.</DD>
+              <DT><SPAN>TI MSP430 support</SPAN>     <SPAN=20
+              class=3D"date">[2013-09-12]</SPAN></DT>
+              <DD>A port for the TI MSP430 has been contributed by Red =
+Hat=20
+              Inc.</DD>
+              <DT><SPAN>Twitter and Google+ accounts</SPAN>     <SPAN =
+class=3D"date">[2013-08-08]</SPAN></DT>
+              <DD>GCC and the GNU Toolchain Project now have accounts on =
+    <A=20
+              href=3D"https://twitter.com/gnutools" =
+target=3D"_blank">Twitter</A>=20
+              and     <A =
+href=3D"https://plus.google.com/108467477471815191158"=20
+              target=3D"_blank" rel=3D"publisher">Google+</A>     to =
+help developers=20
+              stay informed of progress.</DD>
+              <DT><SPAN><A href=3D"http://gcc.gnu.org/gcc-4.8/">GCC =
+4.8.1</A>=20
+              released</SPAN>     <SPAN =
+class=3D"date">[2013-05-31]</SPAN></DT>
+              <DD></DD>
+              <DT><SPAN><A href=3D"http://gcc.gnu.org/gcc-4.6/">GCC =
+4.6.4</A>=20
+              released</SPAN>     <SPAN =
+class=3D"date">[2013-04-12]</SPAN></DT>
+              <DD></DD>
+              <DT><SPAN><A href=3D"http://gcc.gnu.org/gcc-4.7/">GCC =
+4.7.3</A>=20
+              released</SPAN>     <SPAN =
+class=3D"date">[2013-04-11]</SPAN></DT>
+              <DD></DD>
+              <DT><SPAN><A=20
+              href=3D"http://gcc.gnu.org/gcc-4.8/changes.html#cxx">GCC =
+4.8.1</A>  =20
+                will be <A=20
+              href=3D"http://gcc.gnu.org/projects/cxx0x.html">C++11</A>=20
+              feature-complete</SPAN>     <SPAN=20
+              class=3D"date">[2013-04-01]</SPAN></DT>
+              <DD>Support for C++11 <VAR>ref-qualifiers</VAR> was added =
+to the=20
+              GCC      4.8 branch, making G++ the first C++ compiler to=20
+              implement all      the major language features of the =
+C++11=20
+              standard.  This      functionality will be available in =
+GCC=20
+              4.8.1.</DD>
+              <DT><SPAN><A href=3D"http://gcc.gnu.org/gcc-4.8/">GCC =
+4.8.0</A>=20
+              released</SPAN>     <SPAN =
+class=3D"date">[2013-03-22]</SPAN></DT>
+              <DD></DD>
+              <DT><SPAN>GCC internals documentation</SPAN>     <SPAN =
+class=3D"date">[2013-01-23]</SPAN></DT>
+              <DD>The <A href=3D"http://www.cse.iitb.ac.in/grc/">GCC =
+Resource=20
+              Center</A> at IITB is providing documentation, tutorials =
+and=20
+              videos about GCC internals with support from the =
+Government of=20
+              India.</DD></DL>
+            <DIV><A href=3D"http://gcc.gnu.org/news.html">Older news</A> =
+| <SPAN=20
+            style=3D"font-size: 80%;">Any additions?  Don't be shy, send =
+them to=20
+            gerald@pfeifer.com! </SPAN> </DIV></TD>
+          <TD valign=3D"top" style=3D"width: 50%; padding-left: 12px; =
+border-left-color: rgb(51, 102, 204); border-left-width: thin; =
+border-left-style: solid;">
+            <H2 style=3D"margin-top: 0pt;">Release Series and =
+Status</H2>
+            <DL class=3D"status">
+              <DT><SPAN class=3D"version"><A=20
+              href=3D"http://gcc.gnu.org/gcc-4.8/">GCC 4.8.2</A></SPAN>  =
+(<A href=3D"http://gcc.gnu.org/gcc-4.8/changes.html">changes</A>)=20
+              </DT>
+              <DD>  Status:   <!--GCC 4.8 status below-->   <A =
+href=3D"http://gcc.gnu.org/ml/gcc/2013-10/msg00170.html">2013-10-16</A>=20
+                <!--GCC 4.8 status above-->  (regression fixes and docs =
+only).  =20
+              <BR><SPAN class=3D"regress"><A =
+href=3D"http://gcc.gnu.org/bugzilla/buglist.cgi?query_format=3Dadvanced&a=
+mp;short_desc_type=3Dallwordssubstr&amp;short_desc=3D4.8&amp;target_miles=
+tone=3D4.7.4&amp;target_milestone=3D4.8.3&amp;known_to_fail_type=3Dallwor=
+dssubstr&amp;known_to_work_type=3Dallwordssubstr&amp;long_desc_type=3Dall=
+wordssubstr&amp;long_desc=3D&amp;bug_file_loc_type=3Dallwordssubstr&amp;b=
+ug_file_loc=3D&amp;gcchost_type=3Dallwordssubstr&amp;gcchost=3D&amp;gccta=
+rget_type=3Dallwordssubstr&amp;gcctarget=3D&amp;gccbuild_type=3Dallwordss=
+ubstr&amp;gccbuild=3D&amp;keywords_type=3Dallwords&amp;keywords=3D&amp;bu=
+g_status=3DUNCONFIRMED&amp;bug_status=3DNEW&amp;bug_status=3DASSIGNED&amp=
+;bug_status=3DSUSPENDED&amp;bug_status=3DWAITING&amp;bug_status=3DREOPENE=
+D&amp;priority=3DP1&amp;priority=3DP2&amp;priority=3DP3&amp;emailtype1=3D=
+substring&amp;email1=3D&amp;emailtype2=3Dsubstring&amp;email2=3D&amp;bugi=
+dtype=3Dinclude&amp;bug_id=3D&amp;votes=3D&amp;chfieldfrom=3D&amp;chfield=
+to=3DNow&amp;chfieldvalue=3D&amp;cmdtype=3Ddoit&amp;order=3DReuse+same+so=
+rt+as+last+time&amp;field0-0-0=3Dnoop&amp;type0-0-0=3Dnoop&amp;value0-0-0=
+=3D">Serious  regressions</A>.   <A =
+href=3D"http://gcc.gnu.org/bugzilla/buglist.cgi?query_format=3Dadvanced&a=
+mp;short_desc_type=3Dallwordssubstr&amp;short_desc=3D4.8&amp;target_miles=
+tone=3D4.7.4&amp;target_milestone=3D4.8.3&amp;known_to_fail_type=3Dallwor=
+dssubstr&amp;known_to_work_type=3Dallwordssubstr&amp;long_desc_type=3Dall=
+wordssubstr&amp;long_desc=3D&amp;bug_file_loc_type=3Dallwordssubstr&amp;b=
+ug_file_loc=3D&amp;gcchost_type=3Dallwordssubstr&amp;gcchost=3D&amp;gccta=
+rget_type=3Dallwordssubstr&amp;gcctarget=3D&amp;gccbuild_type=3Dallwordss=
+ubstr&amp;gccbuild=3D&amp;keywords_type=3Dallwords&amp;keywords=3D&amp;bu=
+g_status=3DUNCONFIRMED&amp;bug_status=3DNEW&amp;bug_status=3DASSIGNED&amp=
+;bug_status=3DSUSPENDED&amp;bug_status=3DWAITING&amp;bug_status=3DREOPENE=
+D&amp;emailtype1=3Dsubstring&amp;email1=3D&amp;emailtype2=3Dsubstring&amp=
+;email2=3D&amp;bugidtype=3Dinclude&amp;bug_id=3D&amp;votes=3D&amp;chfield=
+from=3D&amp;chfieldto=3DNow&amp;chfieldvalue=3D&amp;cmdtype=3Ddoit&amp;or=
+der=3DReuse+same+sort+as+last+time&amp;field0-0-0=3Dnoop&amp;type0-0-0=3D=
+noop&amp;value0-0-0=3D">All=20
+               regressions</A>.   </SPAN> </DD>
+              <DT><SPAN class=3D"version"><A=20
+              href=3D"http://gcc.gnu.org/gcc-4.7/">GCC 4.7.3</A></SPAN>  =
+(<A href=3D"http://gcc.gnu.org/gcc-4.7/changes.html">changes</A>)=20
+              (oldest maintained release) </DT>
+              <DD>  Status:   <!--GCC 4.7 status below-->   <A =
+href=3D"http://gcc.gnu.org/ml/gcc/2013-04/msg00121.html">2013-04-11</A>=20
+                <!--GCC 4.7 status above-->  (regression fixes and docs =
+only).  =20
+              <BR><SPAN class=3D"regress"><A =
+href=3D"http://gcc.gnu.org/bugzilla/buglist.cgi?query_format=3Dadvanced&a=
+mp;short_desc_type=3Dallwordssubstr&amp;short_desc=3D4.7&amp;target_miles=
+tone=3D4.7.4&amp;known_to_fail_type=3Dallwordssubstr&amp;known_to_work_ty=
+pe=3Dallwordssubstr&amp;long_desc_type=3Dallwordssubstr&amp;long_desc=3D&=
+amp;bug_file_loc_type=3Dallwordssubstr&amp;bug_file_loc=3D&amp;gcchost_ty=
+pe=3Dallwordssubstr&amp;gcchost=3D&amp;gcctarget_type=3Dallwordssubstr&am=
+p;gcctarget=3D&amp;gccbuild_type=3Dallwordssubstr&amp;gccbuild=3D&amp;key=
+words_type=3Dallwords&amp;keywords=3D&amp;bug_status=3DUNCONFIRMED&amp;bu=
+g_status=3DNEW&amp;bug_status=3DASSIGNED&amp;bug_status=3DSUSPENDED&amp;b=
+ug_status=3DWAITING&amp;bug_status=3DREOPENED&amp;priority=3DP1&amp;prior=
+ity=3DP2&amp;priority=3DP3&amp;emailtype1=3Dsubstring&amp;email1=3D&amp;e=
+mailtype2=3Dsubstring&amp;email2=3D&amp;bugidtype=3Dinclude&amp;bug_id=3D=
+&amp;votes=3D&amp;chfieldfrom=3D&amp;chfieldto=3DNow&amp;chfieldvalue=3D&=
+amp;cmdtype=3Ddoit&amp;order=3DReuse+same+sort+as+last+time&amp;field0-0-=
+0=3Dnoop&amp;type0-0-0=3Dnoop&amp;value0-0-0=3D">Serious=20
+               regressions</A>.   <A =
+href=3D"http://gcc.gnu.org/bugzilla/buglist.cgi?query_format=3Dadvanced&a=
+mp;short_desc_type=3Dallwordssubstr&amp;short_desc=3D4.7&amp;target_miles=
+tone=3D4.7.4&amp;known_to_fail_type=3Dallwordssubstr&amp;known_to_work_ty=
+pe=3Dallwordssubstr&amp;long_desc_type=3Dallwordssubstr&amp;long_desc=3D&=
+amp;bug_file_loc_type=3Dallwordssubstr&amp;bug_file_loc=3D&amp;gcchost_ty=
+pe=3Dallwordssubstr&amp;gcchost=3D&amp;gcctarget_type=3Dallwordssubstr&am=
+p;gcctarget=3D&amp;gccbuild_type=3Dallwordssubstr&amp;gccbuild=3D&amp;key=
+words_type=3Dallwords&amp;keywords=3D&amp;bug_status=3DUNCONFIRMED&amp;bu=
+g_status=3DNEW&amp;bug_status=3DASSIGNED&amp;bug_status=3DSUSPENDED&amp;b=
+ug_status=3DWAITING&amp;bug_status=3DREOPENED&amp;emailtype1=3Dsubstring&=
+amp;email1=3D&amp;emailtype2=3Dsubstring&amp;email2=3D&amp;bugidtype=3Din=
+clude&amp;bug_id=3D&amp;votes=3D&amp;chfieldfrom=3D&amp;chfieldto=3DNow&a=
+mp;chfieldvalue=3D&amp;cmdtype=3Ddoit&amp;order=3DReuse+same+sort+as+last=
++time&amp;field0-0-0=3Dnoop&amp;type0-0-0=3Dnoop&amp;value0-0-0=3D">All=20
+               regressions</A>.   </SPAN> </DD>
+              <DT><SPAN class=3D"version">Development:</SPAN>  GCC 4.9.0 =
+(<A href=3D"http://gcc.gnu.org/gcc-4.9/changes.html">changes</A>,=20
+              <A =
+href=3D"http://gcc.gnu.org/gcc-4.9/criteria.html">release=20
+              criteria</A>) </DT>
+              <DD>  Status:   <!--GCC 4.9 status below-->   <A =
+href=3D"http://gcc.gnu.org/ml/gcc/2013-12/msg00203.html">2013-12-20</A>=20
+                <!--GCC 4.9 status above-->  (general bugfixing, stage =
+3).  =20
+              <BR><SPAN class=3D"regress"><A =
+href=3D"http://gcc.gnu.org/bugzilla/buglist.cgi?query_format=3Dadvanced&a=
+mp;short_desc_type=3Dallwordssubstr&amp;short_desc=3D4.9&amp;target_miles=
+tone=3D4.7.4&amp;target_milestone=3D4.8.3&amp;target_milestone=3D4.9.0&am=
+p;known_to_fail_type=3Dallwordssubstr&amp;known_to_work_type=3Dallwordssu=
+bstr&amp;long_desc_type=3Dallwordssubstr&amp;long_desc=3D&amp;bug_file_lo=
+c_type=3Dallwordssubstr&amp;bug_file_loc=3D&amp;gcchost_type=3Dallwordssu=
+bstr&amp;gcchost=3D&amp;gcctarget_type=3Dallwordssubstr&amp;gcctarget=3D&=
+amp;gccbuild_type=3Dallwordssubstr&amp;gccbuild=3D&amp;keywords_type=3Dal=
+lwords&amp;keywords=3D&amp;bug_status=3DUNCONFIRMED&amp;bug_status=3DNEW&=
+amp;bug_status=3DASSIGNED&amp;bug_status=3DSUSPENDED&amp;bug_status=3DWAI=
+TING&amp;bug_status=3DREOPENED&amp;priority=3DP1&amp;priority=3DP2&amp;pr=
+iority=3DP3&amp;emailtype1=3Dsubstring&amp;email1=3D&amp;emailtype2=3Dsub=
+string&amp;email2=3D&amp;bugidtype=3Dinclude&amp;bug_id=3D&amp;votes=3D&a=
+mp;chfieldfrom=3D&amp;chfieldto=3DNow&amp;chfieldvalue=3D&amp;cmdtype=3Dd=
+oit&amp;order=3DReuse+same+sort+as+last+time&amp;field0-0-0=3Dnoop&amp;ty=
+pe0-0-0=3Dnoop&amp;value0-0-0=3D">Serious =20
+              regressions</A>.   <A =
+href=3D"http://gcc.gnu.org/bugzilla/buglist.cgi?query_format=3Dadvanced&a=
+mp;short_desc_type=3Dallwordssubstr&amp;short_desc=3D4.9&amp;target_miles=
+tone=3D4.7.4&amp;target_milestone=3D4.8.3&amp;target_milestone=3D4.9.0&am=
+p;known_to_fail_type=3Dallwordssubstr&amp;known_to_work_type=3Dallwordssu=
+bstr&amp;long_desc_type=3Dallwordssubstr&amp;long_desc=3D&amp;bug_file_lo=
+c_type=3Dallwordssubstr&amp;bug_file_loc=3D&amp;gcchost_type=3Dallwordssu=
+bstr&amp;gcchost=3D&amp;gcctarget_type=3Dallwordssubstr&amp;gcctarget=3D&=
+amp;gccbuild_type=3Dallwordssubstr&amp;gccbuild=3D&amp;keywords_type=3Dal=
+lwords&amp;keywords=3D&amp;bug_status=3DUNCONFIRMED&amp;bug_status=3DNEW&=
+amp;bug_status=3DASSIGNED&amp;bug_status=3DSUSPENDED&amp;bug_status=3DWAI=
+TING&amp;bug_status=3DREOPENED&amp;emailtype1=3Dsubstring&amp;email1=3D&a=
+mp;emailtype2=3Dsubstring&amp;email2=3D&amp;bugidtype=3Dinclude&amp;bug_i=
+d=3D&amp;votes=3D&amp;chfieldfrom=3D&amp;chfieldto=3DNow&amp;chfieldvalue=
+=3D&amp;cmdtype=3Ddoit&amp;order=3DReuse+same+sort+as+last+time&amp;field=
+0-0-0=3Dnoop&amp;type0-0-0=3Dnoop&amp;value0-0-0=3D">All=20
+               regressions</A>.   </SPAN> </DD></DL>
+            <H2>Search our site</H2>
+            <DIV style=3D"font-size: 90%;">
+            <FORM action=3D"http://gcc.gnu.org/cgi-bin/search.cgi"=20
+method=3D"get"><INPUT name=3D"q" style=3D"font-size: 90%;" type=3D"text" =
+size=3D"30">=20
+<INPUT name=3D"cmd" type=3D"hidden" value=3D"Search"> <INPUT =
+style=3D"font-size: 90%;" type=3D"submit" value=3D"Search">=20
+            <BR><SPAN>Match: <SELECT name=3D"m" style=3D"font-size: =
+90%;"><OPTION=20
+              value=3D"all">All words</OPTION>   <OPTION =
+value=3D"any">Any=20
+              word</OPTION>   <OPTION value=3D"bool">Boolean =
+expression</OPTION>  =20
+            </SELECT></SPAN> <SPAN>Sort by: <SELECT name=3D"s" =
+style=3D"font-size: 90%;"><OPTION=20
+              value=3D"DRP">Newest</OPTION>   <OPTION value=3D"RPD">Best =
+
+              Match</OPTION>   </SELECT></SPAN> </FORM></DIV>
+            <P>There is also a <A =
+href=3D"http://gcc.gnu.org/search.html">detailed=20
+            search form</A>.</P>
+            <H2>Get our announcements</H2>
+            <FORM action=3D"http://gcc.gnu.org/cgi-bin/ml-request"=20
+method=3D"get"><INPUT name=3D"digest" type=3D"hidden" value=3D"off">     =
+
+<INPUT name=3D"operation" type=3D"hidden" value=3D"subscribe">    =20
+<INPUT name=3D"listname" type=3D"hidden" value=3D"gcc-announce">    =20
+<INPUT name=3D"username" style=3D"font-size: 90%;" type=3D"text" =
+size=3D"20" value=3D"your e-mail address">=20
+               =20
+<INPUT name=3D"submit" style=3D"font-size: 90%;" type=3D"submit" =
+value=3D"Subscribe">=20
+              </FORM></TD></TR></TBODY></TABLE></TD><!-- end of main =
+frame -->  =20
+    <TD valign=3D"top" style=3D"padding-left: 36px;"><!-- nav frame -->  =
+=20
+      <TABLE width=3D"10" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"2">
+        <TBODY>
+        <TR>
+          <TD>
+            <TABLE width=3D"100%" cellspacing=3D"0">
+              <TBODY>
+              <TR>
+                <TD class=3D"td_title">About GCC</TD></TR>
+              <TR>
+                <TD class=3D"td_con"><A =
+href=3D"http://gcc.gnu.org/gccmission.html">Mission=20
+                  Statement</A><BR><A=20
+                  =
+href=3D"http://gcc.gnu.org/releases.html">Releases</A><BR><A=20
+                  =
+href=3D"http://gcc.gnu.org/snapshots.html">Snapshots</A><BR><A=20
+                  href=3D"http://gcc.gnu.org/lists.html">Mailing =
+lists</A><BR><A=20
+                  =
+href=3D"http://gcc.gnu.org/onlinedocs/gcc/Contributors.html">Contributors=
+</A><BR><A=20
+                  href=3D"http://gcc.gnu.org/steering.html">Steering=20
+                  Committee</A><BR><A =
+href=3D"https://twitter.com/gnutools"><IMG=20
+                  width=3D"42" height=3D"42" align=3D"middle" =
+style=3D"border: 0px currentColor; border-image: none;"=20
+                  alt=3D"@gnutools on Twitter" =
+src=3D"http://gcc.gnu.org/twitter-bird-light-bgs.png">@gnutools</A>=20
+                   =20
+                  <DIV align=3D"center"><A =
+href=3D"https://plus.google.com/108467477471815191158"><IMG=20
+                  width=3D"24" height=3D"24" align=3D"middle" =
+style=3D"border: 0px currentColor; border-image: none;"=20
+                  alt=3D"gnutools on Google+" =
+src=3D"http://gcc.gnu.org/gplus-32.png">=20
+                   gnutools</A>   =
+</DIV></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD>
+            <TABLE width=3D"100%" cellspacing=3D"0">
+              <TBODY>
+              <TR>
+                <TD class=3D"td_title">Documentation</TD></TR>
+              <TR>
+                <TD class=3D"td_con"><A=20
+                  =
+href=3D"http://gcc.gnu.org/install/">Installation</A><BR> =20
+                  =C2=B7&nbsp;<A=20
+                  =
+href=3D"http://gcc.gnu.org/install/specific.html">Platforms</A><BR>=20
+                   =C2=B7&nbsp;<A=20
+                  =
+href=3D"http://gcc.gnu.org/install/test.html">Testing</A><BR><A=20
+                  =
+href=3D"http://gcc.gnu.org/onlinedocs/">Manual</A><BR><A =
+href=3D"http://gcc.gnu.org/faq.html">FAQ</A><BR><A=20
+                  href=3D"http://gcc.gnu.org/wiki">Wiki</A><BR><A =
+href=3D"http://gcc.gnu.org/readings.html">Further=20
+                  Readings</A>   </TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD>
+            <TABLE width=3D"100%" cellspacing=3D"0">
+              <TBODY>
+              <TR>
+                <TD class=3D"td_title">Download</TD></TR>
+              <TR>
+                <TD class=3D"td_con"><A=20
+                  href=3D"http://gcc.gnu.org/mirrors.html">Mirror =
+sites</A><BR><A=20
+                  =
+href=3D"http://gcc.gnu.org/install/binaries.html">Binaries</A>  =20
+                </TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD>
+            <TABLE width=3D"100%" cellspacing=3D"0">
+              <TBODY>
+              <TR>
+                <TD class=3D"td_title">"Live" Sources</TD></TR>
+              <TR>
+                <TD class=3D"td_con"><A =
+href=3D"http://gcc.gnu.org/svn.html">SVN=20
+                  read access</A><BR><A=20
+                  href=3D"http://gcc.gnu.org/wiki/GitMirror">Git read=20
+                  access</A><BR><A =
+href=3D"http://gcc.gnu.org/rsync.html">Rsync=20
+                  read access</A><BR><A=20
+                  href=3D"http://gcc.gnu.org/svnwrite.html">SVN write=20
+                  access</A><BR></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD>
+            <TABLE width=3D"100%" cellspacing=3D"0">
+              <TBODY>
+              <TR>
+                <TD class=3D"td_title">Development</TD></TR>
+              <TR>
+                <TD class=3D"td_con"><A=20
+                  href=3D"http://gcc.gnu.org/develop.html">Development=20
+                  Plan</A><BR>  =C2=B7&nbsp;<A =
+href=3D"http://gcc.gnu.org/develop.html#timeline">Tentative&nbsp;Timeline=
+</A><BR><A=20
+                  =
+href=3D"http://gcc.gnu.org/contribute.html">Contributing</A><BR><A=20
+                  =
+href=3D"http://gcc.gnu.org/contributewhy.html">Why&nbsp;contribute?</A><B=
+R><A=20
+                  href=3D"http://gcc.gnu.org/projects/">Open =
+projects</A><BR><A=20
+                  href=3D"http://gcc.gnu.org/frontends.html">Front =
+ends</A><BR><A=20
+                  href=3D"http://gcc.gnu.org/backends.html">Back =
+ends</A><BR><A=20
+                  =
+href=3D"http://gcc.gnu.org/extensions.html">Extensions</A><BR><A=20
+                  =
+href=3D"http://gcc.gnu.org/benchmarks/">Benchmarks</A><BR><A=20
+                  href=3D"http://toolchain.lug-owl.de/buildbot/">Build=20
+                  Robot</A><BR><A=20
+                  =
+href=3D"http://gcc.gnu.org/translation.html">Translations</A><BR></TD></T=
+R></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD>
+            <TABLE width=3D"100%" cellspacing=3D"0">
+              <TBODY>
+              <TR>
+                <TD class=3D"td_title">Bugs</TD></TR>
+              <TR>
+                <TD class=3D"td_con"><A=20
+                  href=3D"http://gcc.gnu.org/bugs/#known">Known =
+bugs</A><BR><A=20
+                  href=3D"http://gcc.gnu.org/bugs/">How to =
+report</A><BR><A =
+href=3D"http://gcc.gnu.org/bugzilla/">Bug&nbsp;database</A><BR>=20
+                   =C2=B7&nbsp;<A=20
+                  =
+href=3D"http://gcc.gnu.org/bugs/management.html">Management</A> =20
+                 =
+</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD><!-- end of nav =
+frame -->=20
+      </TR></TBODY></TABLE><!-- =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D -->=20
+<DIV class=3D"copyright">
+<ADDRESS style=3D"margin-top: 0px;">For questions related to the use of =
+GCC,
+ please consult these web pages and the <A=20
+href=3D"http://gcc.gnu.org/onlinedocs/">GCC manuals</A>. If that fails, =
+the <A=20
+href=3D"mailto:gcc-help@gcc.gnu.org">gcc-help@gcc.gnu.org</A> mailing =
+list might=20
+help. Comments on these web pages and the development of GCC are welcome =
+on our
+ developer list at <A =
+href=3D"mailto:gcc@gcc.gnu.org">gcc@gcc.gnu.org</A>. All of=20
+<A href=3D"http://gcc.gnu.org/lists.html">our lists</A> have public =
+archives.=20
+</ADDRESS>
+<P>Copyright (C) <A href=3D"http://www.fsf.org/">Free Software =
+Foundation,=20
+Inc.</A> Verbatim copying and distribution of this entire article is =
+permitted=20
+in any medium, provided this notice is preserved.</P>
+<P style=3D"margin-bottom: 0px;">These pages are <A =
+href=3D"http://gcc.gnu.org/about.html">maintained=20
+by the GCC team</A>. Last modified 2013-12-20<!-- IGNORE DIFF=0A=
+--><A href=3D"http://validator.w3.org/check/referer">.</A></P></DIV><!-- =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D -->=20
+        </BODY></HTML>
+
+------=_NextPart_000_0000_01CF00E3.CE5C10B0
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://gcc.gnu.org/img/gccegg-65.png
+
+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
+AElFTkSuQmCC
+
+------=_NextPart_000_0000_01CF00E3.CE5C10B0
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://gcc.gnu.org/twitter-bird-light-bgs.png
+
+iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAYAAAB5fY51AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0
+MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEu
+MC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVz
+b3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1N
+Ok9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpGNzdGMTE3NDA3MjA2ODExOEY2MkVGMkNDRkUz
+NjI5OCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozQTI3OTdGMEEzNzUxMUUxQTI2Q0M1MDcx
+NTQ1QTc1MCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozQTI3OTdFRkEzNzUxMUUxQTI2Q0M1
+MDcxNTQ1QTc1MCIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1LjEgTWFjaW50
+b3NoIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6Rjc3RjEx
+NzQwNzIwNjgxMThGNjJFRjJDQ0ZFMzYyOTgiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6Rjc3
+RjExNzQwNzIwNjgxMThGNjJFRjJDQ0ZFMzYyOTgiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRm
+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
+QmCC
+
+------=_NextPart_000_0000_01CF00E3.CE5C10B0
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://gcc.gnu.org/gplus-32.png
+
+iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADj0lEQVRYw9WW2U8TURTG7z9CfNLE
+pYorgghSQBCMqBHjEqNoMCZuQTFqEHF5QMUlUaPGLRqjJm4P6oO70YhblBY7LZQppVBbAWWT0tJC
++3lmKjWUuTMhGhpP8msmPd9858ydM3eGOVZm72jI1/sIjChL0z2OFVk7mT0v2Vufm4BYYF+Q5GO2
+nBmIJf9PA6asafiQMRmV+ni8TovHq7RJg3hD/0uaYTcgzpsONWqzp+H9vATYKvah+2Ml+lqbEerr
+Q3QEmt1w798OLb9oNBswrFkIr7MRXqsZzqIC2PKS4SrZhEDLt3DhjjaYi9bS/7OGXVxuoC57OngI
+OTPR02iXCzUULBqUcxTmI+j3y7kuiwnmLL6PGsxKS8zDVrYtfJWdHYr5H/dvRW5BXfF6qHnxYFYa
+HB7um5dlc397G2oV8o7iwkgDzpOHoObFg9XOnQoeLXdvRAoI+RlD8nWL0yL5r4dLoebFQ7UBV0VZ
+pID9dMWQvDkvRc7193ggLtEPyb+YrdNuoCZzCnjUzk9Er6vp97S3o2pJBiy/cwLtCdbyUiAYhKu8
+RPF8KdT8JZglczLUsNH0+xz1spnX5YR5/w5UFS6F/dJp9Hu64aRBjT7n2ezxMlIMHPP8mYWuRIsa
+Gpamki1ovXKWJv/2n8E7c1RRrxQ8b2ZOj8dwsO3aGDFtuHgKJj1fK4WWHxPoZzhYl2XTBtQrm4eC
+/bBTE0aOVn56NPyYST8JWnxKmwjD6oWwHNgpF/TYxUHL2/LyCYyZUzV9lGAmepPxMKRPgXjqCHz0
+ovHUCHDT4DXu2Yr6javgKC2C/0drpAn3g7tQ8+LBvtDVKVGdm4hOk4HWOYQm2g+UNJZFqfgpGMMd
+kE6gVeL58WDVc6iYAl/vhHfB7y8egaeRMOUkyiskha18j6pWCWpAByX8tPFI0UT3nKcZwHntgqwV
+6VHV0kbDjKkToERf98/wCrx+Dp5mANed6wh0daKaXsla2miYMYUOFGh+eC9yb8VDe8HTfVmeKxcX
+927jatRghpTxUKJ6fhK6BgaMov3zB4hH9kHYsBzCunxYthag8eo5+mBpQN3uzeD5aMGqaJ/mYUjV
+QTy4C9/fvISPvgWDgQD6e33y0Em3xna4DMasGVDz0IL9zcn/AvY5eRxiSewbeDdrbChWxd8mjQ2x
+8/GjWh8njMbThDEjilRTqs1O6OKKj+vivMd0cRhJpJpUe/svf5rLYDhLu38AAAAASUVORK5CYII=
+
+------=_NextPart_000_0000_01CF00E3.CE5C10B0
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://gcc.gnu.org/gcc.css
+
+body {
+	color: black; background-color: white;
+}
+a:link {
+	color: rgb(0, 102, 187); text-decoration: none;
+}
+a:visited {
+	color: rgb(0, 51, 153); text-decoration: none;
+}
+a:hover {
+	color: darkorange; text-decoration: none;
+}
+h1 {
+	text-align: center; color: darkslategray;
+}
+h2 {
+	color: darkslategray;
+}
+.highlight {
+	color: darkslategray; font-weight: bold;
+}
+dl.news {
+	margin-top: 0px;
+}
+dl.news dt {
+	color: darkslategrey; font-weight: bold; margin-top: 0.3em;
+}
+dl.news dd {
+	margin-top: 0.1em; margin-bottom: 0.1em; margin-left: 3ex;
+}
+dl.news .date {
+	color: darkslategrey; font-size: 90%; margin-left: 0.1ex;
+}
+dl.status {
+	margin-top: 0px;
+}
+dl.status .version {
+	font-weight: bold;
+}
+dl.status .regress {
+	font-size: 90%;
+}
+dl.status dd {
+	margin-left: 3ex;
+}
+.td_title {
+	border: thin solid rgb(51, 102, 204); color: rgb(242, 242, 249); =
+font-weight: bold; background-color: rgb(0, 102, 221);
+}
+.td_con {
+	padding-top: 3px; padding-bottom: 3px; padding-left: 8px; font-size: =
+smaller; background-color: rgb(242, 242, 249);
+}
+div.copyright {
+	background: rgb(242, 242, 249); padding: 4px; border: thin solid =
+rgb(51, 102, 204); border-image: none; font-size: smaller;
+}
+.classpath-only {
+	background-color: rgb(255, 255, 170);
+}
+.libgcj-only {
+	background-color: rgb(255, 255, 170);
+}
+.VM-specific {
+	background-color: rgb(204, 204, 255);
+}
+.GCJ-specific {
+	background-color: rgb(204, 204, 255);
+}
+.needsmerge {
+	background-color: rgb(255, 144, 144);
+}
+.merged {
+	background-color: rgb(34, 255, 34);
+}
+.merged-expected-diff {
+	background-color: rgb(34, 255, 34);
+}
+.merged-unexpected-diff {
+	background-color: rgb(255, 68, 68);
+}
+
+------=_NextPart_000_0000_01CF00E3.CE5C10B0--
