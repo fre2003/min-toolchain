@@ -3,7 +3,8 @@ min-toolchain -- A turn-key build environment for embedded systems products.
 
   min-toolchain Copyright (C) 1996-2008 min-toolchain, 
   https://github.com/fre2003
-  http://min-toolchain.googlecode.com/svn/distribution/
+
+  copy from http://min-toolchain.googlecode.com/svn/distribution/
 
   Licenses for files are:
    1) MIT licence
